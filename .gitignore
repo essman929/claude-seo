@@ -179,3 +179,10 @@ id_rsa
 id_rsa.*
 id_ed25519
 id_ed25519.*
+
+# Universal Completeness Protocol kit — tracked; rest of .claude/ (local state) stays ignored
+!.claude/
+.claude/*
+!.claude/settings.json
+!.claude/hooks/
+!.claude/skills/
